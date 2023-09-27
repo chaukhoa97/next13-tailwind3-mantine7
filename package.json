@@ -1,5 +1,5 @@
 {
-  "name": "mantine-minimal-next-template",
+  "name": "hsr-relic-farming",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,21 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mantine/core": "7.0.1",
-    "@mantine/hooks": "7.0.1",
-    "next": "13.4.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@mantine/core": "^7.0.2",
+    "@mantine/hooks": "^7.0.2",
+    "clsx": "^2.0.0",
+    "next": "^13.5.3",
+    "prettier-plugin-tailwindcss": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "latest"
   },
   "devDependencies": {
-    "@types/node": "20.2.5",
-    "@types/react": "18.2.7",
-    "@types/react-dom": "18.2.4",
-    "eslint": "8.41.0",
-    "eslint-config-next": "13.4.4",
-    "postcss": "^8.4.24",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "^10.4.16",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "postcss": "^8.4.30",
     "postcss-preset-mantine": "1.6.0",
     "postcss-simple-vars": "^7.0.1",
-    "typescript": "5.0.4"
+    "prettier": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
